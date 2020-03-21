@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  font-family: 'Poppins', sans-serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav .brand-logo {
+  color: #212121;
+}
+
+nav .nav-wrapper {
+    padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #686868;
+  padding-right: -20px;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  width: auto;
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+  .header {
+    margin-top: 15%;
+      }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+.nav-wrapper {
+    padding: 0 -10px;
+}
+
+}
+
+.icon-block {
+  padding: 0 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.parallax-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.input-field {
+  margin-top: 60px;
+}
+
+.row {
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+.contatti {
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+
+.button {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
